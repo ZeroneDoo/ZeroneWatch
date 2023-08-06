@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import '@fortawesome/fontawesome-svg-core/styles.css';
+import 'slick-carousel/slick/slick.css';
+import '../src/media/slick.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
